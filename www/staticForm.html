@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="./static/js/jquery-2.1.3.js"></script>
+    <title>The List</title>
+</head>
+
+<body>
+    <p>Results will go up Here!</p>
+    <hr />
+
+    <script>
+    function button() {
+
+        alert("HelloFromTheFormButton");
+
+         <!-- var firstname = document.getElementById('thelist').first,
+                lastname = document.getElementById('thelist').last,
+                telephone = document.getElementById('thelist').telephone,
+                email = document.getElementById('thelist').email;
+                -->
+    }
+    </script>
+
+    <fieldset>
+        <legend>The List</legend>
+    <form id="thelist" action="" method="POST">
+
+        <label>First name:<br>
+            <input type="text" size="16" maxlength="16" placeholder="First" id="first" /></label><br><br>
+
+        <label>Last name:<br>
+            <input type="text" size="16" maxlength="16" placeholder="Last" id="last" /></label><br><br>
+
+        <label>Telephone:<br>
+            <input type="tel" size="16" maxlength="16" placeholder="413-555-4321" id="telephone" /></label><br><br>
+
+        <label>Email:<br>
+            <input type="email" size="16" maxlength="16" placeholder="you@email.com" id="email" /></label><br><br>
+        <!--Button:-->
+            <input type="button" id="form_button" value="Submit" onclick="button()" /><br><br>
+        <label>sign up for updates:
+        <!--Subscription-->
+            <input type="checkbox" value="subscribed" checked="checked" /></label><br>
+        <br>
+    </form>
+    </fieldset>
+
+    <hr />
+
+    <footer>
+    <p>~ J.W.Cote 2015 ~</p>
+    </footer>
+</body>
+
+</html>
